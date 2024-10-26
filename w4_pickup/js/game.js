@@ -142,8 +142,9 @@ function main()
    /*--------------text----------------*/
    //makes the text center aligned instead of left aligned
     ctx.textAlign = `center`;
-    ctx.font = "50px Ariel"
+    ctx.font = "50px Arial";
     ctx.strokeText(score, 100, 100);
+    ctx.fillText();
     /*----------INSTRUCTION------------
     Set the context's font property to use 64px Arial 
     Draw the score on the canvas using the fillText() method
